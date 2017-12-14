@@ -1,0 +1,48 @@
+body {
+  margin: 0 auto;
+}
+
+#header {
+  display: flex;
+  height: 25vh;
+  background-color: tomato;
+}
+
+#main-body {
+  display:flex;
+  height: 100vh;
+  background-color: lightGrey;
+}
+
+
+#map-container {
+  width: 50%;
+  background-color: lightblue;
+}
+
+#sidebar {
+  display:flex;
+  flex-direction:column;
+  background-color: lightgreen;
+  width: 50%;
+  transition: 0.5s;
+}
+
+#sidebar:hover {
+  width: 75%;
+  transition: 0.5s;
+}
+
+
+#sidebar-info {
+  background-color: lightyellow;
+  height: 70%;
+  width: 100%;
+  transition: 0.5s;
+}
+
+#sidebar-choices {
+  background-color: pink;
+  height: 30%;
+  width: 100%;
+}
